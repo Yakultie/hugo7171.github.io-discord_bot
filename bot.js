@@ -36,6 +36,7 @@ bot.on('message',(message)=>{
     }
     if (message.content =="teo is a retard") {
       clearInterval(loop);
+      console.log("Stopped")
     }
 })
 bot.login(process.env.BOT_TOKEN)
