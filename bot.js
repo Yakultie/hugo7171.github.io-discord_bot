@@ -38,5 +38,4 @@ bot.on('message',(message)=>{
       clearInterval(loop);
     }
 })
-
-client.login(process.env.BOT_TOKEN)
+bot.login(process.env.BOT_TOKEN)
