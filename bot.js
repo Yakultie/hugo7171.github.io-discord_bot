@@ -46,5 +46,5 @@ bot.on('message',(message)=>{
     clearInterval(loop);
     console.log("stopped two")
   }
-}
+})
 bot.login(process.env.BOT_TOKEN)
