@@ -17,7 +17,7 @@ bot.on('message',(message)=>{
   var currentChannel = message.channel
   if(message.content=="start"){
     currentChannel.sendMessage("https://sd.keepcalm-o-matic.co.uk/i/sit-back-relax-and-enjoy--7.png")
-      var loop = setInterval(backSide, 15000);
+      var loop = setInterval(backSide, 20000);
       function backSide() {
         currentChannel.sendMessage("*rule34 overwatch")
       }
@@ -43,7 +43,7 @@ bot.on('message',(message)=>{
 
 bot.on('message',(message)=>{
   if (message.content=="stop") {
-    clearInterval(loop);
+
     console.log("stopped two")
   }
 })
