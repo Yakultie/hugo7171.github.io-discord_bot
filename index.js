@@ -28,6 +28,7 @@ bot.on('message',(message)=>{
     message.channel.send('https://m.popkey.co/2e18f2/VlgXG.gif')
   }
   if (message.content=="bernard") {
+    message.channel.send('https://cdn.boldomatic.com/content/post/uIL4Ng/hot-things-expand-im-not-fat-im-hot?size=800')
     message.channel.send('is hot, and is an honest person')
   }
 })
