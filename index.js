@@ -28,7 +28,7 @@ bot.on('message',(message)=>{
     message.channel.send('https://m.popkey.co/2e18f2/VlgXG.gif')
   }
   if (message.content=="bernard") {
-    message.channel.send('is hot')
+    message.channel.send('is hot, and is an honest person')
   }
 })
 bot.login(process.env.BOT_TOKEN)
