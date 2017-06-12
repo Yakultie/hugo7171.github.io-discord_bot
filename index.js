@@ -1,7 +1,7 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 console.log('online')
-
+console.log(process.env.BOT_TOKEN)
 loopio = 0;
 function loop(channel) {
   console.log('loop started')
