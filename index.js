@@ -6,7 +6,7 @@ loopio = 0;
 function loop(channel) {
   console.log('loop started')
   var lup = setInterval(function loop2(){
-    channel.send('*stuffs')
+    channel.send('*ass')
   }, 1000);
 }
 
@@ -26,6 +26,9 @@ bot.on('message',(message)=>{
   }
   if (message.content=="burn") {
     message.channel.send('https://m.popkey.co/2e18f2/VlgXG.gif')
+  }
+  if (message.content=="bernard") {
+    message.channel.send('is hot')
   }
 })
 bot.login(process.env.BOT_TOKEN)
