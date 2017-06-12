@@ -28,8 +28,13 @@ bot.on('message',(message)=>{
     message.channel.send('https://m.popkey.co/2e18f2/VlgXG.gif')
   }
   if (message.content=="bernard") {
+    message.channel.send('is an honest citizen of the United Kingdom of Great Britain and Northern Ireland')
+  }
+  if (message.content.contains("w") && message.content.contains("a") && message.content.contains("l") && message.content.contains("k")) {
     message.channel.send('https://cdn.boldomatic.com/content/post/uIL4Ng/hot-things-expand-im-not-fat-im-hot?size=800')
-    message.channel.send('is hot, and is an honest person')
+  }
+  if (message.content.contains("f") && message.content.contains("a") && message.content.contains("t")) {
+    message.channel.send('https://cdn.boldomatic.com/content/post/uIL4Ng/hot-things-expand-im-not-fat-im-hot?size=800')
   }
 })
 bot.login(process.env.BOT_TOKEN)
